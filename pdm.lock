@@ -48,6 +48,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "django-cors-headers"
+version = "4.1.0"
+requires_python = ">=3.7"
+summary = "django-cors-headers is a Django application for handling the server headers required for Cross-Origin Resource Sharing (CORS)."
+dependencies = [
+    "Django>=3.2",
+]
+
+[[package]]
 name = "djangorestframework"
 version = "3.14.0"
 requires_python = ">=3.6"
@@ -111,8 +120,9 @@ requires_python = ">=2"
 summary = "Provider of IANA time zone data"
 
 [metadata]
-lock_version = "4.1"
-content_hash = "sha256:7ef4b7f1133dcb68661986e04f749fb8d7584f46facda74216325ff59d36b95f"
+lock_version = "4.2"
+groups = ["default", "dev"]
+content_hash = "sha256:282091dfde5612a2963f51f0cc9f1138b8a707a6aa35c90af6e44715055421ed"
 
 [metadata.files]
 "asgiref 3.6.0" = [
@@ -157,6 +167,10 @@ content_hash = "sha256:7ef4b7f1133dcb68661986e04f749fb8d7584f46facda74216325ff59
 "django 4.2" = [
     {url = "https://files.pythonhosted.org/packages/9a/bb/48aa3e0850923096dff2766d21a6004d6e1a3317f0bd400ba81f586754e1/Django-4.2.tar.gz", hash = "sha256:c36e2ab12824e2ac36afa8b2515a70c53c7742f0d6eaefa7311ec379558db997"},
     {url = "https://files.pythonhosted.org/packages/d9/40/6012f98b14b64b4d3dc47b0c2f116fccbd0795ab35515d0c40dac73b81b8/Django-4.2-py3-none-any.whl", hash = "sha256:ad33ed68db9398f5dfb33282704925bce044bef4261cd4fb59e4e7f9ae505a78"},
+]
+"django-cors-headers 4.1.0" = [
+    {url = "https://files.pythonhosted.org/packages/05/e8/63cd37e5d08c9b33f3c88804a844693579bbf8fe40b69a2ca29c320c9f38/django_cors_headers-4.1.0.tar.gz", hash = "sha256:36a8d7a6dee6a85f872fe5916cc878a36d0812043866355438dfeda0b20b6b78"},
+    {url = "https://files.pythonhosted.org/packages/a0/2c/7df4f05a02b20b2c22ffc137b5a04f93214bbaf202fd2a29637ac694e0e4/django_cors_headers-4.1.0-py3-none-any.whl", hash = "sha256:88a4bfae24b6404dd0e0640203cb27704a2a57fd546a429e5d821dfa53dd1acf"},
 ]
 "djangorestframework 3.14.0" = [
     {url = "https://files.pythonhosted.org/packages/8e/53/5b2a002c5ebafd60dff1e1945a7d63dee40155830997439a9ba324f0fd50/djangorestframework-3.14.0.tar.gz", hash = "sha256:579a333e6256b09489cbe0a067e66abe55c6595d8926be6b99423786334350c8"},
